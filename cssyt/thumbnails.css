@@ -1,0 +1,66 @@
+.div1{
+  position: relative;
+ 
+}
+.i1{
+  width: 100%;
+}
+.i2{
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+}
+.p1{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 9px;
+  margin-top: 0px;
+}
+.p2{
+  font-size: 12px;
+  color: grey;
+  margin-bottom: 0px;
+  font-family: arial;
+}
+.p3{
+  font-size: 12px;
+  color: grey;
+  margin-top: 6px;
+  font-family: arial;
+}
+
+.bhai{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* height: px; */
+  column-gap: 13px;
+  row-gap: 20px;
+}
+.div2{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  margin-top: 10px;
+}
+body{
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 100px;
+  height: 1000px;
+}
+
+.time-lapse{
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 13px;
+  font-family: arial;
+  font-weight: 500;
+  border-radius: 2px;
+}
